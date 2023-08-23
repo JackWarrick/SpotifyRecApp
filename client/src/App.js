@@ -1,12 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './login';
 
 function App() {
-  return (
-    <div className="App">
-   Hello
-    </div>
-  );
+    return <Login />
 }
 
 export default App;
